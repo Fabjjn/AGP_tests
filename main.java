@@ -91,13 +91,5 @@ public class main {
     Jméno: Petr; Bydliště: Moravské Budějovice; Číslo účtu: 689521; Zůstatek: 0
     Jméno: Jakub; Bydliště: Praha; Číslo účtu: 281799; Zůstatek: 8598
      */
-
-
-
-
-
-
-
-
-    }
+ }
 }
