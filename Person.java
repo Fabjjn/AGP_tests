@@ -16,7 +16,7 @@ public class Person {
         this.Name = name;
 
 
-
+        // warcrime
         if(Integer.parseInt(ejg()) < 23){
             if(Integer.parseInt(month()) > 6) {
                 Age = 23 - Integer.parseInt(ejg()) - 1;
