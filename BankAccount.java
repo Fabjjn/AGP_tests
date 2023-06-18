@@ -23,40 +23,9 @@ public class BankAccount {
         this.bankNum = new Random().nextInt(900000) + 100000;
         this.address = person.getCity();
     }
-
-    // implementujte konstruktor s parametry: osoba (objekt třídy Person) a zůstatek. číslo účtu vygenerujte jako 6
-    // místné číslo, zůstatek nastavte na předaný parametr.
-    public BankAccount(int balance){
-
-    }
-
+    
     // implementujte get a set pro atributy, uvědomte si které lze měnit
-
-    public int getBal() {
-        return bal;
-    }
-    public int getBankNum() {
-        return bankNum;
-    }
-
-    public String getPerson() {
-        return person;
-    }
-
-    public void setBal(int bal) {
-        this.bal = bal;
-    }
-
-    public void setBankNum(int bankNum) {
-        this.bankNum = bankNum;
-    }
-
-    public void setPerson(String person) {
-        this.person = person;
-    }
-
-
-
+    //no
     // implementujte metodu toSting, ta bude vracet řetězec ve formátu:
     // "Jméno: attr_osoba.name; Bydliště: attr_osoba.homeTown; Číslo účtu: attr_accNumber; Zůstatek: attr_balance"
 
