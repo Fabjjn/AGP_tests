@@ -68,21 +68,6 @@ public class Person {
         return Age;
     }
 
-    public void setName(String name) {
-        Name = name;
-    }
-
-    public void setCity(String city) {
-        City = city;
-    }
-
-    public void setAge(int age) {
-        Age = age;
-    }
-
-    public void setRodneCislo(long[] rodneCislo) {
-        RodneCislo = rodneCislo;
-    }
     // implementujte metodu toString, ta bude vracet řetězec ve formátu: "Jméno: attr_name; Bydliště: attr_homeTown; Věk: attr_age"
 
     @Override
