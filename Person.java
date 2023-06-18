@@ -87,12 +87,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "RodneCislo=" + Arrays.toString(RodneCislo) +
-                ", Name='" + Name + '\'' +
-                ", City='" + City + '\'' +
-                ", Age=" + Age +
-                '}';
+        return  "Jméno: " + Name +
+                "; Bydliště: " + City +
+                "; Věk: " + Age ;
     }
 
 
@@ -101,8 +98,7 @@ public class Person {
     // "Jan: Aá, František. Dlouho jsme se neviděli, doufám, že se máš ve věku 32 dobře.
     // Přeji ti hezký den a užívej si sluníčko."
 
-    public String sayHi(){
-        return Name + ": Aá, František. Dlouho jsme se neviděli, doufám, že se máš ve věku " + Age + " dobře. " +
-                "Přeji ti hezký den a užívej si sluníčko";
+    public String sayHi(Person kaja){
+        return this.getName() + ": Aá, " + kaja.getName() + ". Dlouho jsme se neviděli, doufám, že se máš ve věku " + kaja.getAge() + " dobře. Přeji ti hezký den a užívej si sluníčko";
     }
 }
