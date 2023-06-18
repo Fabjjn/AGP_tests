@@ -17,6 +17,8 @@ public class BankAccount {
         this.bal = 0;
         this.address = person.getCity();
     }
+    // implementujte konstruktor s parametry: osoba (objekt třídy Person) a zůstatek. číslo účtu vygenerujte jako 6
+    // místné číslo, zůstatek nastavte na předaný parametr.
     public BankAccount(Person person, int balance){
         this.person = person.getName();
         this.bal = balance;
