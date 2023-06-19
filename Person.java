@@ -88,7 +88,7 @@ public class Person {
     // Daného člověka následně osloví a popřeje mu hezký den. Například:
     // "Jan: Aá, František. Dlouho jsme se neviděli, doufám, že se máš ve věku 32 dobře.
     // Přeji ti hezký den a užívej si sluníčko."
-
+    //By slanja
     public String sayHi(Person kaja){
         return this.getName() + ": Aá, " + kaja.getName() + ". Dlouho jsme se neviděli, doufám, že se máš ve věku " + kaja.getAge() + " dobře. Přeji ti hezký den a užívej si sluníčko";
     }
