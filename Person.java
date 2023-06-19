@@ -14,6 +14,12 @@ public class Person {
         this.RodneCislo = RC;
         this.City = city;
         this.Name = name;
+        if(this.City == null){
+            return "Uprchlík z Mexika";
+        }
+        else{
+            this.City = city;
+        }
 
 
         // warcrime
