@@ -15,7 +15,7 @@ public class Person {
         this.City = city;
         this.Name = name;
         if(this.City == null){
-            return "Uprchlík z Mexika";
+            this.City = "Uprchlík z Mexika";
         }
         else{
             this.City = city;
